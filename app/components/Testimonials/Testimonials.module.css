@@ -1,0 +1,32 @@
+.section {
+  background-color: #F5F1E8;
+  padding: 60px 40px 80px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 48px 24px 60px;
+  }
+
+  .container {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 40px 16px 48px;
+  }
+
+  .container {
+    gap: 8px;
+  }
+}

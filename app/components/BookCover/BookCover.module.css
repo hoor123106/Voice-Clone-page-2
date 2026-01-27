@@ -1,0 +1,28 @@
+.bookContainer {
+  position: relative;
+  width: 450px;
+  flex-shrink: 0;
+  left: -80px;
+  top: -40px;
+}
+
+.bookContainer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .bookContainer {
+    width: 380px;
+    left: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bookContainer {
+    width: 300px;
+    left: 0;
+    margin: 0 auto;
+  }
+}
