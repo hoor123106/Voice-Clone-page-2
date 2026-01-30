@@ -1,8 +1,8 @@
 .bookContainer {
   position: relative;
-  width: 450px;
+  width: 518px;
   flex-shrink: 0;
-  left: -80px;
+  left: -60px;
   top: -40px;
 }
 
@@ -14,15 +14,23 @@
 
 @media (max-width: 1200px) {
   .bookContainer {
+    width: 437px;
+    left: -30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .bookContainer {
     width: 380px;
-    left: -50px;
+    left: 0;
   }
 }
 
 @media (max-width: 768px) {
   .bookContainer {
-    width: 300px;
+    width: 320px;
     left: 0;
-    margin: 0 auto;
+    top: 0;
+    margin: 20px auto;
   }
 }

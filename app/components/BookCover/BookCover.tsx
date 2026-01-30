@@ -4,7 +4,7 @@ export default function BookCover() {
   return (
     <div className={styles.bookContainer}>
       <div>
-        <img src="/images/heroBookImage.png" alt="Author Photo" />
+        <img src="/images/heroBookImage.png" alt="Book Cover" />
       </div>
     </div>
   );
