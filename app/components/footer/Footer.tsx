@@ -28,9 +28,9 @@ export default function Footer() {
         <h2 className={styles.ctaHeading}>Ready to Transform  <br />Your Voice?</h2>
         <p className={styles.ctaSubheading}>Your voice can change your relationships. Your career. Your confidence. Your life.
         .</p>
-        <a
-          href="https://buy.stripe.com/8x24gA8Ve14SfDMenb14405"
-          className={styles.ctaButton}
+          <a
+          href="https://buy.stripe.com/6oU6oI2wQbJwezI0wl14408"
+                className={styles.ctaButton}
           style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}
           target="_blank"
           rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export default function Footer() {
           <h3 className={styles.columnTitle}>Sevil Velsha</h3>
           <p className={styles.description}>
              Unlock the power of your voice—speak with clarity, authority, and emotional impact. Whether you're
-            presenting on stage, leading a team, negotiating a deal, or preparing for TED, your voice is your instrument
+            resenting on stage, leading a team, negotiating a deal, or preparing for TED, your voice is your instrument
             of influence.
           </p>
         </div>

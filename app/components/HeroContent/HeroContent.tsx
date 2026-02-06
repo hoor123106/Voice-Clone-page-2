@@ -29,12 +29,12 @@ export default function HeroContent() {
 
       <div className={styles.buttons}>
         <a
-          href="https://buy.stripe.com/8x24gA8Ve14SfDMenb14405"
+          href="https://buy.stripe.com/6oU6oI2wQbJwezI0wl14408"
           className={styles.buyButton}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Buy Now— 97$
+          Buy Now— 99$
         </a>
         <button className={styles.samplesButton}>Read Samples</button>
       </div>
