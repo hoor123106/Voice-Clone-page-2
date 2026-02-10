@@ -1,17 +1,14 @@
 import Image from "next/image";
 import styles from "./TestimonialCard.module.css";
 
-export default function TestimonialCard({
-  quote,
-  name,
-  role,
-  image,
-}: {
+interface TestimonialProps {
   quote: string;
   name: string;
   role: string;
   image: string;
-}) {
+}
+
+export default function TestimonialCard({ quote, name, role, image }: TestimonialProps) {
   return (
     <div className={styles.card}>
       <div className={styles.stars}>
@@ -23,13 +20,16 @@ export default function TestimonialCard({
       </div>
       <p className={styles.quote}>{quote}</p>
       <div className={styles.author}>
-        <Image
-          src={image || "/placeholder.svg"}
-          alt={name}
-          width={48}
-          height={48}
-          className={styles.avatar}
-        />
+        <div className={styles.avatarWrapper}>
+          <Image
+            src={image}
+            alt={name}
+            width={48}
+            height={48}
+            className={styles.avatar}
+            unoptimized // External links ke liye temporarily use karein agar domain configure nahi hai
+          />
+        </div>
         <div className={styles.info}>
           <p className={styles.name}>{name}</p>
           <p className={styles.role}>{role}</p>
