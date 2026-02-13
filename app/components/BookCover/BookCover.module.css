@@ -1,40 +1,15 @@
 .bookContainer {
-  position: relative;
-  width: 100%;
-  /* Size chota karne ke liye max-width ko 400px kiya */
-  max-width: 500px;
-  height: auto;
-  flex-shrink: 0;
-
-  /* Left alignment aur thoda sa margin */
-  margin-left: 40px;
-  margin-right: auto;
-
-  left: 0;
-  top: 0;
-  transition: all 0.3s ease;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .bookContainer img {
-  width: 100%;
-  /* Ab ye 400px ke andar fit rahegi */
+  width: 700px;
   height: auto;
-  display: block;
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.2));
-}
-
-/* Tablets */
-@media (max-width: 1200px) {
-  .bookContainer {
-    max-width: 450px;
-  }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
-  .bookContainer {
-    max-width: 280px;
-    margin: 20px auto;
-    /* Mobile par center */
-  }
+  .bookContainer {}
 }

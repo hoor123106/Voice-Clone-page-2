@@ -1,9 +1,10 @@
+/* Hero.module.css */
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 80px;
-  padding: 60px 48px 100px;
+  gap: 40px;
+  padding: 60px;
   background-color: #f5f1e8;
   min-height: calc(100vh - 100px);
 }
