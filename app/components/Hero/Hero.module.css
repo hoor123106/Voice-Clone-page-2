@@ -7,6 +7,7 @@
   padding: 60px;
   background-color: #f5f1e8;
   min-height: calc(100vh - 100px);
+  max-width: 1446px;
 }
 
 @media (max-width: 1024px) {
