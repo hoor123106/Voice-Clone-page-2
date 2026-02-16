@@ -1,15 +1,24 @@
 .bookContainer {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
+/* Image */
 .bookContainer img {
-  width: 700px;
+  width: clamp(200px, 45vw, 600px);
   height: auto;
+
+  /* responsive upward shift */
+  transform: translateY(clamp(-120px, -8vw, -40px));
+
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.2));
 }
 
-/* Mobile */
+/* Mobile layout adjustment */
 @media (max-width: 768px) {
-  .bookContainer {}
+  .bookContainer {
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
