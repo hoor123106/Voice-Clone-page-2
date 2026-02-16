@@ -1,14 +1,18 @@
-/* Hero.module.css */
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* centers horizontally */
   gap: 40px;
-  padding: 60px;
+  padding-left: 100px;
   background-color: #f5f1e8;
   min-height: calc(100vh - 100px);
+  padding-top: 80px;
   max-width: 1446px;
+  flex-wrap: wrap;
+  /* ensures responsiveness */
 }
+
 
 @media (max-width: 1024px) {
   .hero {
