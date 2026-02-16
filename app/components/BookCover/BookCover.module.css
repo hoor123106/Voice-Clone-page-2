@@ -4,16 +4,15 @@
   align-items: center;
 }
 
-/* Image */
 .bookContainer img {
   width: clamp(200px, 45vw, 600px);
   height: auto;
-
-  /* responsive upward shift */
   transform: translateY(clamp(-120px, -8vw, -40px));
-
+  transform: translateY(calc(clamp(-120px, -8vw, -40px) + 0.5cm));
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.2));
 }
+
+
 
 /* Mobile layout adjustment */
 @media (max-width: 768px) {
